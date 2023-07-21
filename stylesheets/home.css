@@ -7,6 +7,12 @@ body {
 .font-m {
     font-family: "Poppins", sans-serif;
 }
+.font{
+  font-size: 20px
+}
+h2{
+  font-weight: 630;
+}
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 #navfr{
   background-color: rgb(0, 63, 102) !important;
@@ -55,8 +61,8 @@ body {
 #bot{
   margin-top: 12rem;
 }
-img{
-  animation: fadeInAnimation ease 3s;
+.fade{
+  animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -69,11 +75,9 @@ img{
    }
 }
 #hero-img{
-  position: absolute;
-  top: 150rem;
-  left: 0;
   z-index: -1;
-  filter: brightness(60%);
+  filter: brightness(90%);
+  margin-top: 10rem;
 }
 #hero-sec{
   margin-top: 20rem;
@@ -96,9 +100,7 @@ img{
 #stat h1{
   font-size: 15rem !important;
 }
-#under-hero-con{
-  margin-top: 10%;
-}
+
 /* start mobile */
 @media only screen and (max-width: 768px){
   #banner-wrap{
@@ -117,4 +119,7 @@ img{
   font-size: 3rem;
   line-height: 3rem;
   color: black;
+}
+#under-hero-con{
+  margin-top: 50px;
 }
