@@ -1,0 +1,117 @@
+body {
+  overflow-x: hidden;
+}
+.font-m {
+    font-family: "Poppins", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+#navfr{
+  background-color: rgb(0, 63, 102) !important;
+}
+#banner-top-heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+#banner-wrap{
+    position: relative;
+    padding: 6.25rem;
+    margin-bottom: 19rem;
+}
+#banner-img{
+    opacity: 0.9;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: brightness(60%);
+    width: 100%;
+    z-index: -1;
+}
+#banner-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    position: relative;
+    color: white;
+}
+#energy{
+    color: rgb(69, 249, 255);
+}
+#brand{
+    position: absolute;
+    left: 25px;
+}
+.desc{
+    color: #a0a1a8;
+    font-weight: 700;
+    margin: 0%;
+}
+#mid-page{
+    margin-top: 200px;
+}
+#bot{
+  margin-top: 12rem;
+}
+img{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+#hero-img{
+  position: absolute;
+  top: 150rem;
+  left: 0;
+  z-index: -1;
+  filter: brightness(60%);
+}
+#hero-sec{
+  margin-top: 20rem;
+  color: white;
+
+}
+#stat-desc{
+  color: white;
+  text-align: left;
+  vertical-align: bottom;
+  padding-top: 4rem;
+  padding-right: 2rem;
+}
+#stat{
+  padding-left: 2rem;
+  color: white;
+  text-align: right;
+  vertical-align: top;
+}
+#stat h1{
+  font-size: 15rem !important;
+}
+#under-hero-con{
+  margin-top: 10rem;
+}
+/* start mobile */
+@media only screen and (max-width: 768px){
+  #banner-wrap{
+    padding: 0%;
+    padding-top: 12.25rem;
+    padding-left: 2rem;
+    margin-bottom: 0;
+  }
+}
+#energy-mob{
+  color: rgb(69, 249, 255);
+}
+#ban-top-mob {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: black;
+}
