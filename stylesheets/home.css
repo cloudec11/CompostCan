@@ -95,7 +95,7 @@ img{
   font-size: 15rem !important;
 }
 #under-hero-con{
-  margin-top: 10rem;
+  margin-top: 10%;
 }
 /* start mobile */
 @media only screen and (max-width: 768px){
