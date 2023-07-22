@@ -123,3 +123,16 @@ h2{
 #under-hero-con{
   margin-top: 50px;
 }
+.slide-cap{
+  padding-bottom: 15rem !important;
+}
+.slide-cap h2{
+  text-align: left !important;
+  padding: 0 12rem;
+}
+.carousel-item img{
+  filter: brightness(.6);
+}
+#ret{
+  margin-top: 20rem;
+}

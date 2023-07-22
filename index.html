@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="bs/css/bootstrap.css" />
     <link rel="stylesheet" href="stylesheets/home.css" />
     <link rel="stylesheet" href="stylesheets/gears.css" />
     <link rel="stylesheet" href="cards.css" />
     <link
-      rel="shortcut icon"
-      href="https://png.pngtree.com/png-clipart/20190924/original/pngtree-lightning-button-icon-design-png-image_4816773.jpg"
-      type="image/x-icon"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
     <script src="fa/js/all.js" defer></script>
@@ -55,10 +55,10 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Our Mission</a>
+                <a class="nav-link" href="mission.html">Our Mission</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -167,29 +167,77 @@
       </div>
     </div>
     <!-- end 3rd image part -->
-    <!-- hero -->
-    <img src="assets/battery.png" alt="" class="img-fluid" id="hero-img" />
-    <!-- <div class="container" id="hero-sec"> -->
-    <!-- <div class="row">
-        <div class="col" id="stat">
-          <h1 id="" class="d-none d-lg-block d-xl-block">60%</h1>
-        </div>
-        <div class="col" id="stat-desc">
-          <h3 id="" class="d-none d-lg-block d-xl-block">
-            of all stuff can be energy idk example statistic
-          </h3>
-        </div>
-      </div> -->
-    <!-- </div> -->
-    <!-- end hero -->
     <!-- return program -->
-    <div class="container text-center" id="under-hero-con">
-      <h1 id="return-head">Return Program</h1>
-      <!-- start cards -->
-
-      <!-- end c ards -->
-    </div>
-
+    <section class="" id="ret ">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/batterygreen.png"
+              class="d-block w-100 h-50"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block slide-cap">
+              <h1>Return Program</h1>
+              <p>
+                Introducing our return program. Beneficial for you, and
+                beneficial for us!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/battery.png"
+              class="d-block w-100 h-50"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block slide-cap">
+              <h1>How it works</h1>
+              <p>
+                You can return our canisters back to us and recieve a discount
+                on your next canister.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/batteryred.png"
+              class="d-block w-100 h-50"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block slide-cap">
+              <h1>Motive</h1>
+              <p>
+                Reduce the costs for you and us. Also takes a step towards
+                sustainability!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
     <!-- end return program -->
   </body>
 </html>
