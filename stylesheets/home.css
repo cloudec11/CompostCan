@@ -14,8 +14,9 @@ h2{
   font-weight: 630;
 }
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 #navfr{
-  background-color: rgb(0, 63, 102) !important;
+  background-color: #91bb8d !important;
 }
 #banner-top-heading {
     font-style: normal;
@@ -44,14 +45,14 @@ h2{
     color: white;
 }
 #energy{
-    color: rgb(69, 249, 255);
+    color: #c3ff70;
 }
 #brand{
     position: absolute;
     left: 25px;
 }
 .desc{
-    color: #a0a1a8;
+    color: #87d292;
     font-weight: 700;
     margin: 0%;
 }
@@ -135,4 +136,18 @@ h2{
 }
 #ret{
   margin-top: 20rem;
+}
+.carousel-caption{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.carousel-caption h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+.carousel-caption p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.big-icon{
+  font-size: 50px;
 }
