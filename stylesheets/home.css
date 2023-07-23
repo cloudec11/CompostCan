@@ -24,6 +24,11 @@ h2{
     font-size: 3rem;
     line-height: 3rem;
 }
+.percent{
+  font-size: 40px;
+  font-weight: 600;
+  color: #87d292;
+}
 #banner-wrap{
     position: relative;
     padding: 6.25rem;
