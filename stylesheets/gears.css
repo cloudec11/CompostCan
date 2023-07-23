@@ -5,14 +5,14 @@
     margin: 0px auto;
     position: absolute;
     top: 77rem;
-    left: 4rem;
+    left: 10rem;
 }
 #wrapper2{
     width: 100%;
     max-width: 725px;
     margin: 0px auto;
     position: absolute;
-    top: 145rem;
+    top: 155rem;
     left: 65%;
 }
 .gears{
@@ -29,7 +29,7 @@
     padding: 9%;
     position: relative; 
     margin: 0px auto;
-    opacity: 0.4;
+    opacity: 0.2;
     z-index: -1;
 }
 .gear-rotate{
@@ -42,9 +42,9 @@
 	background: #BCEBCB;
 	position: absolute;
 	border-radius: 1em;
-	-webkit-animation: 1s gear-rotate linear infinite;
-	-moz-animation: 1s gear-rotate linear infinite;
-	animation: 1s gear-rotate linear infinite;
+	-webkit-animation: 3s gear-rotate linear infinite;
+	-moz-animation: 3s gear-rotate linear infinite;
+	animation: 3s gear-rotate linear infinite;
 }
 .gear-rotate-left{
   margin-top: -2.2em;
@@ -55,9 +55,9 @@
 	background: #BCEBCB;
 	position: absolute;
 	border-radius: 1em;
-  -webkit-animation: 1s gear-rotate-left linear infinite;
-  -moz-animation: 1s gear-rotate-left linear infinite;
-  animation: 1s gear-rotate-left linear infinite;
+  -webkit-animation: 3s gear-rotate-left linear infinite;
+  -moz-animation: 3s gear-rotate-left linear infinite;
+  animation: 3s gear-rotate-left linear infinite;
 }
 
 .gear-rotate::before, .gear-rotate-left::before {
@@ -89,7 +89,7 @@
 .gear-rotate::after, .gear-rotate-left::after {
 	width: 1em;
 	height: 1em;
-	background: #2B2B2B;
+	background: #cfffa5;
 	position: absolute;
 	content:"";
 	top: .5em;

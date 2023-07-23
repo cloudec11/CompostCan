@@ -14,7 +14,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="stylesheets/contact.css" />
+    <link rel="stylesheet" href="stylesheets/exchange.css" />
     <title>Contact Us</title>
   </head>
   <body>
@@ -55,10 +55,10 @@
                 <a class="nav-link" href="mission.html">Our Mission</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact Us</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="exchange.html">Exchange</a>
+                <a class="nav-link active" href="exchange.html">Exchange</a>
               </li>
             </ul>
           </div>
@@ -66,9 +66,13 @@
       </nav>
     </section>
     <!-- end nav -->
+    <!-- image -->
+    <img src="assets/green.jpeg" id="banner" />
+    <!-- end image -->
+    <h1 id="heading">Exchange Form</h1>
     <section id="contact-form">
       <!-- Wrapper container -->
-      <div class="container py-4">
+      <div class="container">
         <!-- Bootstrap 5 starter form -->
         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
           <!-- Name input -->
@@ -107,25 +111,45 @@
             </div>
           </div>
 
+          <!-- number -->
+          <div class="mb-3">
+            <label class="form-label" for="name">Number of cans</label>
+            <input
+              class="form-control"
+              id="name"
+              type="number"
+              placeholder="Number of cans"
+              data-sb-validations="required"
+              min="1"
+              oninput="this.value = Math.abs(this.value)"
+            />
+            <div class="invalid-feedback" data-sb-feedback="name:required">
+              Number of cans is required.
+            </div>
+          </div>
+
           <!-- Message input -->
           <div class="mb-3">
-            <label class="form-label" for="message">Message</label>
+            <label class="form-label" for="message">Address</label>
             <textarea
               class="form-control"
               id="message"
-              type="text"
-              placeholder="Message"
-              style="height: 10rem"
+              type="Address"
+              placeholder="Address"
+              style="height: 1rem; resize: none"
               data-sb-validations="required"
             ></textarea>
             <div class="invalid-feedback" data-sb-feedback="message:required">
-              Message is required.
+              Address is required.
             </div>
           </div>
 
           <!-- Form submissions success message -->
           <div class="d-none" id="submitSuccessMessage">
-            <div class="text-center mb-3">Form submission successful!</div>
+            <div class="text-center mb-3">
+              Exchange submission successful! We will let you know when we will
+              come pick the cans up in 1-2 business days.
+            </div>
           </div>
 
           <!-- Form submissions error message -->

@@ -1,0 +1,30 @@
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+#contact-form{
+    margin: 0 15%;
+}
+#navfr{
+    background-color: #91bb8d !important;
+  }
+  #submitButton{
+    background-color: #91bb8d !important;
+  }
+  #brand{
+    position: absolute;
+    left: 25px;
+}
+  #banner{
+    filter: brightness(.6);
+    width: 100%;
+    margin-bottom: 7%;
+  }
+  #heading{
+    margin-left: 40%;
+  }
+  #contact-form{
+    margin-bottom: 20%;
+  }
