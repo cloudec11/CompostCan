@@ -2,7 +2,7 @@ html, body {
   overflow-x: hidden;
 }
 body {
-  position: relative
+  position: relative;
 }
 .font-m {
     font-family: "Poppins", sans-serif;
