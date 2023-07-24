@@ -30,3 +30,14 @@ body{
 #row-2{
     margin-top: 15%;
 }
+@media only screen and (max-width: 768px){
+    #banner{
+        width: 1400px;
+        padding-right: 900px;
+        height: 50%;
+    }
+    #mission{
+        font-size: 50px;
+    }
+
+}
