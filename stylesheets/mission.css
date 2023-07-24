@@ -1,6 +1,9 @@
-body{
+html, body {
     overflow-x: hidden;
-}
+  }
+  body {
+    position: relative
+  }
 #contact-form{
     margin: 0 20rem;
 }
