@@ -156,3 +156,10 @@ h2{
 .big-icon{
   font-size: 50px;
 }
+#exchange{
+  padding-bottom: 11rem !important;
+}
+.img-exchange{
+  height: 500px !important;
+  width: 100%;
+}
